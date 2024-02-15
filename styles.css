@@ -1,0 +1,81 @@
+body { 
+	font-family: Arial, sans-serif; 
+}
+
+a { 
+	color: #007bff; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	color: #0056b3; 
+}
+
+.navbar-brand { 
+	font-weight: bold; 
+}
+
+.jumbotron { 
+	background-color: #007bff; 
+	color: white; 
+	padding: 6rem 0; 
+}
+
+.jumbotron h1 { 
+	font-size: 4rem; 
+}
+
+.container { 
+	padding: 4rem 0; 
+}
+
+h2 { 
+	font-size: 2.5rem; 
+	margin-bottom: 2rem; 
+}
+
+.text-left { 
+	text-align: left; 
+}
+
+.text-center { 
+	text-align: center; 
+}
+
+.img-fluid { 
+	max-width: 100%; height: auto; 
+}
+
+.form-control { 
+	width: 100%; 
+}
+
+footer { 
+	background-color: #f8f9fa; 
+	padding: 2rem 0; 
+}
+
+#contact {
+	background-color: #f8f9fa;
+	padding: 5rem 0;
+}
+#contact h2 {
+	color: #343a40;
+}
+#contact .form-control {
+	border-color: #ced4da;
+}
+#contact .form-control:focus {
+	border-color: #7886a0;
+}
+#contact button.btn-primary {
+	background-color: #4d90fe;
+	border-color: #4d90fe;
+}
+#contact button.btn-primary:hover {
+	background-color: #3a79ce;
+	border-color: #3a79ce;
+}
+#contact a.text-primary {
+	color: #4d90fe;
+}
