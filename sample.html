@@ -1,110 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>GSimple Design Services</title>
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-			font-family: 'Roboto', sans-serif;
-			background-color: #f2f2f2;
-		}
-		header {
-			background-color: #333;
-			color: white;
-			padding: 1rem;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-		header h1 {
-			margin: 0;
-			font-size: 1.5rem;
-		}
-		nav {
-			background-color: #eee;
-			padding: 1rem;
-			text-align: center;
-			display: flex;
-			justify-content: space-around;
-			align-items: center;
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-		}
-		nav a {
-			color: #333;
-			text-decoration: none;
-			padding: 0.5rem 1rem;
-			border-radius: 4px;
-			transition: background-color 0.3s ease;
-		}
-		nav a:hover {
-			background-color: #ddd;
-		}
-		main {
-			padding: 2rem;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-		}
-		.section {
-			background-color: white;
-			color: #333;
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-			flex: 1 1 300px;
-			margin: 1rem;
-			padding: 2rem;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-			transition: transform 0.3s ease;
-		}
-		.section:hover {
-			transform: translateY(-5px);
-			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-		}
-		.section h2 {
-			margin: 0;
-			margin-bottom: 1rem;
-			font-size: 1.5rem;
-		}
-		.section p {
-			margin: 0;
-			margin-top: 1rem;
-			font-size: 0.9rem;
-		}
-	</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sample.css">
+  <title>Sign Up</title>
 </head>
 <body>
-	<header>
-		<header>
-	<h1>GSimple Design Services</h1>
-</header>
-<nav>
-	<a href="#">Simple Text</a>
-	<a href="#">About Us</a>
-	<a href="#">Our Works</a>
-	<a href="#">500+ Sites</a>
-	<a href="#">GIFTS</a>
-</nav>
-<main>
-	<div class="section">
-		<h2>Simple Text</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum.</p>
-	</div>
-	<div class="section">
-		<h2>About Us</h2>
-		<p>NO CODING</p>
-	</div>
-	<div class="section">
-		<h2>Our Works</h2>
-		<p>500+ SITES</p>
-	</div>
-	<div class="section">
-		<h2>GIFTS</h2>
-		<p>GSimple Design Services</p>
-	</div>
-</main>
+  <div class="container">
+    <h1>Create your account</h1>
+    <form action="submit.php" method="post">
+      <div class="form-field">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" autocomplete="email">
+      </div>
+      <div class="form-field">
+        <label for="password">Password</label>
+        <div class="password-input">
+          <input type="password" id="password" name="password" autocomplete="new-password">
+          <button type="button" class="show-password">Show</button>
+        </div>
+        <div class="password-strength">
+          <div class="bar weak"></div>
+          <div class="bar medium"></div>
+          <div class="bar strong"></div>
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="phone">Phone number (optional)</label>
+        <input type="tel" id="phone" name="phone">
+      </div>
+      <div class="form-field">
+        <label for="password-confirm">Confirm password</label>
+        <input type="password" id="password-confirm" name="password-confirm" autocomplete="new-password">
+        <div class="password-match-message"></div>
+      </div>
+      <div class="form-actions">
+        <button type="submit" class="cta">Sign Up</button>
+        <p>Already have an account? <a href="login.php">Log in</a></p>
+      </div>
+    </form>
+  </div>
 </body>
 </html>
