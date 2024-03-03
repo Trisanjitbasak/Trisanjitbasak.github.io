@@ -1,11 +1,11 @@
 # Portfolio Overview: Trisanjit Basak’s Web Development Showcase
 ## 1. Homepage: Introduction and Personal Branding
-Featured Box: On the homepage, introduce yourself with a featured section. For instance:
+### Featured Box: On the homepage, introduce yourself with a featured section. For instance:
 Name: John Doe
 Role: Experienced frontend developer
 Passion: Creating visually stunning and user-friendly websites
 ## 2. Project Showcase: Highlight Your Three Projects
-Created a dedicated page for each project. Include the following details for each project:
+### Created a dedicated page for each project. Include the following details for each project:
 Project Title: Concise and descriptive.
 Project Description: Explain the purpose, technologies used, and your role
 Links: (https://trisanjitbasak.github.io/)
